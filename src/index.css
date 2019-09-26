@@ -12,3 +12,110 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.navbar-nav {
+  display: flex;
+  flex-direction: inherit !important;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.navbar-collapse {
+  flex-basis: inherit !important;
+  flex-grow: 1;
+  align-items: center;
+}
+
+
+.navbar-brand h1 {
+  color: #159eee !important;
+}
+
+.navbar-inverse .navbar-nav > .active > a, body.blue .navbar-inverse .navbar-nav > .active > a:hover, body.blue .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #159eee !important;
+  background-color: transparent;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #159eee;
+}
+
+.nav > li {
+  position: relative;
+  display: block;
+  top: -6px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, body.blue .navbar-inverse .navbar-nav > li > a:focus {
+  color: #159eee !important;
+  background-color: transparent;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #159eee;
+}
+
+.navbar-brand span {
+  color: #333333 !important;
+}
+
+#top-header ul.social_links i:hover {
+  color: #159eee !important;
+}
+
+span {
+  color: #159eee !important;
+}
+
+i {
+  color: #159eee !important;
+}
+
+
+.btn-default {
+  padding: 15px 50px !important;
+  border-radius: 0px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  color: #fff !important;
+  background-color: #159eee !important;
+  border-color: #159eee !important;
+}
+
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white !important;
+}
+
+body.blue .slide:hover, body.blue .slide:focus {
+  box-shadow: inset 15.5em 0 0 0 transparent !important;
+}
+
+body.blue .btn-default:hover:hover, body.blue .btn-default:hover:focus, body.blue .btn-default:hover.focus {
+  color: #777777 !important;
+  background-color: #159eee;
+  text-decoration: none;
+}
+
+body #features i.feature_icon {
+  font-size: 30px;
+  color: #159eee !important;
+}
+
+.blue-special {
+  color: #159EED !important;
+}
+
+body .collapse.in {
+  display: block !important;
+  position: relative;
+  z-index: 99999999999999999999;
+  background: white;
+  margin: -3%;
+}
