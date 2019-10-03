@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import { Container, Row, Col, Pager } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from '../components/Nav';
+import Footer from '../components/Footer';
+import '../resources/framework/scss/main.css';
+import '../resources/framework/scss/skin.css';
 
 class Main extends Component{
 
@@ -18,24 +21,10 @@ class Main extends Component{
           });
 
         return (
-            <div>
-                <Nav  classparam="nav-bar-style-blue" />
-                <Container>
-                    <Row className="show-grid">
-                        <Col xs={12} md={8}>
-                            <br />
-                            {childrenWithExtraProp}
-                            <br />
-                        </Col>
-                        <Col xs={12} md={4}>
-                            <div className="panelNews">
-                                <h1>AQUI PANEL SALIM</h1>
-                            </div>
-                        </Col>
-                    </Row>
-
-                </Container>
-
+            <div id="body">
+                <Nav  />
+                {childrenWithExtraProp}
+                <Footer />
             </div>
 
         );
