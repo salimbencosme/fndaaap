@@ -43,7 +43,7 @@ class Footer extends Component {
                             <li><Link to="/about">Our History</Link></li>
                             <li><Link to="/team">Volunteer Team</Link></li>
                             <li><Link to="/donate">Donate</Link></li>
-                            <li><Link to="/fqa">FAQ</Link></li>
+                            <li><Link to="/faq">FAQ</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>
