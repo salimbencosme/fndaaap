@@ -587,5 +587,13 @@ body #faq .icon-circle {
   left: -20px !important;
 }
 
+.navbar-header{
+  height: 100px !important;
+}
+
+.icon-circle{
+  display: none !important;
+}
+
 }
 
