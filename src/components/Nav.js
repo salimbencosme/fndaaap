@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import logo from '../../src/resources/img/logo.png'; 
+import {closeMenuAfterCliked } from '../common/Utils';
 
 class Nav extends Component {
 
@@ -60,12 +61,12 @@ class Nav extends Component {
                     </div>
                     <div id="navbar" class="collapse navbar-collapse navbar-right">
                         <ul class="nav navbar-nav">
-                            <li ><Link to="/">Home</Link></li>
-                            <li><Link to="/about">Our history</Link></li>
-                            <li><Link to="/team">Volunteer team</Link></li>
-                            <li><Link to="/donate">Donate</Link></li>
-                            <li><Link to="/faq">FAQ</Link></li>
-                            <li><Link to="/contact">Contact</Link></li>
+                            <li ><Link onClick={closeMenuAfterCliked} to="/">Home</Link></li>
+                            <li><Link onClick={closeMenuAfterCliked} to="/about">Our history</Link></li>
+                            <li><Link onClick={closeMenuAfterCliked} to="/team">Volunteer team</Link></li>
+                            <li><Link onClick={closeMenuAfterCliked} to="/donate">Donate</Link></li>
+                            <li><Link onClick={closeMenuAfterCliked} to="/faq">FAQ</Link></li>
+                            <li><Link onClick={closeMenuAfterCliked} to="/contact">Contact</Link></li>
                         </ul>
                     </div>
                
