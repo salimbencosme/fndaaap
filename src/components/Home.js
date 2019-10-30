@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import { Navbar, NavItem, MenuItem, NavDropdown, Nav as NAVT } from 'react-bootstrap'
-import { manageLanguage, closeMenuAfterCliked } from '../common/Utils';
-import user from '../../src/resources/img/user1.png'; 
 import slideone from '../../src/resources/img/banner-slide-1.jpg';
 import slidetwo from '../../src/resources/img/banner-slide-2.jpg';
 import slidethree from '../../src/resources/img/banner-slide-3.jpg';
@@ -21,9 +18,6 @@ import memberChildrenThree from '../../src/resources/img/32.jpg';
 
 class Home extends Component {
 
-    constructor(props) {
-        super(props);
-    }
 
     componentWillReceiveProps(nextProps) {}
 

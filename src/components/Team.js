@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
-import { Navbar, NavItem, MenuItem, NavDropdown, Nav as NAVT } from 'react-bootstrap'
-import { manageLanguage, closeMenuAfterCliked } from '../common/Utils';
 import memberone from '../../src/resources/img/28.jpeg'; 
 import membertwo from '../../src/resources/img/24.jpeg'; 
 import memberthree from '../../src/resources/img/25.jpg'; 
@@ -10,14 +7,6 @@ import memberfive from '../../src/resources/img/29.jpg';
 import membersix from '../../src/resources/img/27.jpg'; 
 
 class Team extends Component {
-
-    constructor(props) {
-        super(props);
-    }
-
-    componentWillReceiveProps(nextProps) {}
-
-    componentDidMount() {}
 
     render() {
         return (

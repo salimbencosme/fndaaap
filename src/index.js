@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import Home from './components/Home';
 import Team from './components/Team';
 import About from './components/About';

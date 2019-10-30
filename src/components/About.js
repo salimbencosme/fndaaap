@@ -1,8 +1,4 @@
-import React, { Component } from 'react';
-import { Link } from "react-router-dom";
-import { Navbar, NavItem, MenuItem, NavDropdown, Nav as NAVT } from 'react-bootstrap'
-import { manageLanguage, closeMenuAfterCliked } from '../common/Utils';
-import user from '../../src/resources/img/user1.png'; 
+import React, { Component } from 'react'; 
 import slideone from '../../src/resources/img/1.jpg';
 import slidetwo from '../../src/resources/img/bg.jpg';
 class About extends Component {

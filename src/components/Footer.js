@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import { Navbar, NavItem, MenuItem, NavDropdown, Nav as NAVT } from 'react-bootstrap'
-import { manageLanguage, closeMenuAfterCliked } from '../common/Utils';
 
 class Footer extends Component {
 
