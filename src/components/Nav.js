@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import { Navbar, NavItem, MenuItem, NavDropdown, Nav as NAVT } from 'react-bootstrap'
+import logo from '../../src/resources/img/logo.png'; 
 
 class Nav extends Component {
 
@@ -21,17 +22,17 @@ class Nav extends Component {
             <div class="row">
                 <div class="col-md-7 col-sm-7 col-xs-7 top-header-links">
                     <ul class="contact_links">
-                        <li><i class="fa fa-phone"></i><a href="#">+91 848 594 5080</a></li>
-                        <li><i class="fa fa-envelope"></i><a href="#">sales@aspiresoftware.in</a></li>
+                        <li><i class="fa fa-phone"></i><Link to="/contact">+1 809 739 2105</Link></li>
+                        <li><i class="fa fa-envelope"></i><Link to="/contact">nestoflovefoundation@outlook.com</Link></li>
                     </ul>
                 </div>
                 <div class="col-md-5 col-sm-5 col-xs-5 social">
                     <ul class="social_links">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                        <li><a href="https://www.facebook.com/nestoflovef/"><i class="fa fa-facebook"></i></a></li>
+                        <li style={{display:'none'}}><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li style={{display:'none'}}><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li style={{display:'none'}}><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li style={{display:'none'}}><a href="#"><i class="fa fa-skype"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -51,19 +52,21 @@ class Nav extends Component {
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			  </button>
-                        <a class="navbar-brand" href="#">
-                            <h1>Aspire</h1><span>Software Solutions</span></a>
+
+              <Link class="navbar-brand" to="/">
+                   <span> <img src={logo} alt="user" class="img-responsive logo" /></span>
+                 
+              </Link>
+
                     </div>
                     <div id="navbar" class="collapse navbar-collapse navbar-right">
                         <ul class="nav navbar-nav">
-                            <li class="active"><Link to="/">Home</Link></li>
-                            <li><Link to="/features">Features</Link></li>
-                            <li><Link to="/">About</Link></li>
-                            <li><Link to="/">Portfolio</Link></li>
-                            <li><Link to="/">FAQ</Link></li>
-                            <li><Link to="/">Contact</Link></li>
-                            <li><Link to="/">Sign In</Link></li>
-                            <li><Link to="/">Sign Up</Link></li>
+                            <li ><Link to="/">Home</Link></li>
+                            <li><Link to="/about">Our history</Link></li>
+                            <li><Link to="/team">Volunteer team</Link></li>
+                            <li><Link to="/donate">Donate</Link></li>
+                            <li><Link to="/faq">FAQ</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>
                
