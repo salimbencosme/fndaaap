@@ -59,7 +59,7 @@ class FAQ extends Component {
                                 </div>
                                 <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                     <div class="panel-body">
-                                    Absolutely! Gospel preaching is one of our core values???? In the school. Children will learn about God and Jesus love for them and all humanity. We take special care with Bible reading and praying everyday just before raising the Dominican flag and sing the national anthem but also Bible classes and spiritual counseling.
+                                    Absolutely! Gospel preaching is one of our core values In the school. Children will learn about God and Jesus love for them and all humanity. We take special care with Bible reading and praying everyday just before raising the Dominican flag and sing the national anthem but also Bible classes and spiritual counseling.
                                     </div>
                                 </div>
                             </div>

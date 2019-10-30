@@ -21,7 +21,7 @@ class Nav extends Component {
             <div class="row">
                 <div class="col-md-7 col-sm-7 col-xs-7 top-header-links">
                     <ul class="contact_links">
-                        <li><i class="fa fa-phone"></i><Link to="/contact">+1 809 739 2105</Link></li>
+                        <li><i class="fa fa-phone"></i><Link to="/contact" onclick="console.log('salim')">+1 809 739 2105</Link></li>
                         <li><i class="fa fa-envelope"></i><Link to="/contact">nestoflovefoundation@outlook.com</Link></li>
                     </ul>
                 </div>
