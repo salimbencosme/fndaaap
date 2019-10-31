@@ -9,7 +9,9 @@ class About extends Component {
 
     componentWillReceiveProps(nextProps) {}
 
-    componentDidMount() {}
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
 
     render() {
         return (
@@ -41,17 +43,23 @@ class About extends Component {
                                 <h2>Our <span>history</span></h2>
                             </div>
                             <p>
-                                 It was not the original idea to found an organization, or a school, when in 2006 the founder, 
-                                 Evely Peniche, teaching Bible classes she realized that children did not attend school,
-                                  so she started teaching reading and writing to 6 children from the community. 
-                                  That way, in the garage of the house and in a disinterested way, began the jurney
-                                   of holding hands with the most needy of the community of Villa Emmanuel, 
-                                   ending that school year with 12 students.
-
+                            It was not the original idea
+founding an organization or a
+school, when in 2006 the founder,
+Evely Peniche, teaching Bible
+classes she realized that many
+children were not attending school,
+so she started teaching
+six children from the community
+to read and write.That way, in
+the garage of her house and in a disinterested way, began the
+journey of holding hands with the most needed ones in the
+community of Villa Emmanuel, ending that school year with
+ twelve students.
                                 <br/><br/> 
-                                As the number of students grew, it was necessary to register the organization and we did so, but when we saw how the children felt in an environment that was valued and loved, the name "Nidito de Amor" was born, which means a small nest of love.
+                                As the number of students grew, it was necessary to register the organization and so we did, but when we saw how the children felt in a valuble and lovely environment that name "Nidito de Amor" was born, which means a small nest of love.
                                 <br/><br/>
-                                Currently, under the responsibility of the Nidito de Amor Foundation are not only the Colegio Cristiano Espacio de Amor (which was what became that first small group of students) but also responsible for the Escuela Cristiana Juan Calvino since 2014 ;
+                                Currently under the responsibility of Nidito de Amor foundation, is not only Colegio Cristiano Espacio de Amor (which was what the small group of students became into) but also responsible for Escuela Cristiana Juan Calvino since 2014.
                                 <br/><br/>
                                 Throughout these 12 years the Nest of Love Foundation has contributed to the community of Villa Emmanuel and Villa Esperanza, innumerable benefits to families of very scarce economic resources in Sosúa and Montellano, in the province of Puerto Plata that transcends beyond the classroom education, providing development, jobs, medical assistance, psychological assistance, nutrition, among others.
 
@@ -91,7 +99,10 @@ class About extends Component {
                                             </div>
                                             <div class='our-team-text-inner'>
                                                 <div class='our-team-description'>
-                                                    <p>Our principal focus is to bring support for the most needed people in the Dominican Republic, being our center of attention education based on Christian values in order to help vulnerable people to have a better life not only while here on earth but also in the eternal life.</p>
+                                                    <p>Our main focus is bringing support for the most needed people in the Dominican Republic, 
+                                                        being our center of attention education based on Christian values in order to help vulnerable
+                                                         people to have a better life not only while here on earth but also in the eternal life.
+                                                         </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -135,28 +146,38 @@ box-b">
                                             <div class='our-team-text-inner'>
                                                 <div class='our-team-description'>
                                                     <div class="col-md-6 col-sm-12 col-xs-12">
-                                                        <h6 class="title-core title-box">Spiritual Development</h6>
-                                                        <p> We strive to be a support spiritual development for each person we reach.</p>
+                                                        <div class="about-box">
+                                                            <h6 class="title-core title-box">Spiritual Development</h6>
+                                                            <p> We strive to be a support spiritual development for each person we reach.</p>
+                                                        </div>
                                                     </div>
 
                                                     <div class="col-md-6 col-sm-12 col-xs-12">
+                                                    <div class="about-box">
                                                         <h6 class="title-core title-box">Culture of Collaboration and Excellence</h6>
                                                         <p> Working with cooperation as a team to achieve our goals, we challenge each other to reach the highest levels of excellence.</p>
                                                     </div>
+                                                    </div>
 
                                                     <div class="col-md-6 col-sm-12 col-xs-12">
+                                                    <div class="about-box">
                                                         <h6 class="title-core title-box">Transparency</h6>
                                                         <p> To be open with our associates that trust in our work and those who we believe that the change we are fighting for matter in our world.</p>
                                                     </div>
-
-                                                    <div class="col-md-6 col-sm-12 col-xs-12">
-                                                        <h6 class="title-core title-box">Integrity</h6>
-                                                        <p>We will adhere to moral and ethical principles.</p>
                                                     </div>
 
                                                     <div class="col-md-6 col-sm-12 col-xs-12">
+                                                    <div class="about-box">
+                                                        <h6 class="title-core title-box">Integrity</h6>
+                                                        <p>We will adhere to moral and ethical principles.</p>
+                                                    </div>
+                                                    </div>
+
+                                                    <div class="col-md-6 col-sm-12 col-xs-12">
+                                                    <div class="about-box">
                                                         <h6 class="title-core title-box">Accountability</h6>
                                                         <p> Carry out all our work with the greatest responsibility and deliver high quality outcomes.</p>
+                                                    </div>
                                                     </div>
                                             
                                                 </div>

@@ -1,6 +1,26 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
+
+    getEmail(){
+        let a = new Date();
+        return a.getDay()+"-"+a.getMonth()+"-"+a.getFullYear()+"-"+a.getMinutes()+""+a.getMilliseconds()+"@webgenerated.com";
+    }
+
+
+    cleanForm(){
+        console.log(document.readyState === "complete");
+
+        if(document.readyState === "complete"){
+            window.location.reload();
+        }
+        
+    }
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
         return (
             <div>
@@ -33,9 +53,8 @@ class Contact extends Component {
                         <div class="status alert alert-success" style={{display:"none"}}></div>
                         <center style={{width:"100%"}}>
                         <div id="mc_embed_signup">
-<form  action="https://outlook.us20.list-manage.com/subscribe/post?u=985ea8f79230596ba75fbf177&amp;id=8e3fb7cdc3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate contact-form" target="_blank" novalidate>
+<form onSubmit={this.cleanForm}  action="https://outlook.us20.list-manage.com/subscribe/post?u=985ea8f79230596ba75fbf177&amp;id=8e3fb7cdc3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate contact-form" target="_blank" novalidate>
    
-
     <div id="mc_embed_signup_scroll">
 	<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
     <div class="col-sm-5 col-sm-offset-1">
@@ -45,8 +64,13 @@ class Contact extends Component {
         </div>
 
         <div class="form-group">
-            <label style={{float:'left'}} for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
-            <input type="email"  name="EMAIL" class="form-control email" id="mce-EMAIL" required />
+            <label style={{float:'left'}} for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+            <input type="text" name="EMAILREAL" class="form-control email" id="mce-EMAILREAL" required />
+        </div>
+
+        <div class="form-group">
+            <label style={{display:'none'}} for="mce-EMAIL">Email (Generated)  <span class="asterisk">*</span></label>
+            <input style={{display:'none'}}  type="email" value={this.getEmail()}  name="EMAIL" class="form-control email" id="mce-EMAIL" />
         </div>
 
         <div class="form-group">

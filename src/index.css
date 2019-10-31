@@ -595,5 +595,13 @@ body #faq .icon-circle {
   display: none !important;
 }
 
+#navbar-custom{
+    display: block !important;
+}
+
+.about-box{
+  padding-bottom: 10% !important;
+}
+
 }
 

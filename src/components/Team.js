@@ -8,6 +8,11 @@ import membersix from '../../src/resources/img/27.jpg';
 
 class Team extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
+      
     render() {
         return (
               

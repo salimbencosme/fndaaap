@@ -60,7 +60,7 @@ class Nav extends Component {
 
                     </div>
                     <div id="navbar" class="collapse navbar-collapse navbar-right">
-                        <ul class="nav navbar-nav">
+                        <ul id="navbar-custom" class="nav navbar-nav">
                             <li ><Link onClick={closeMenuAfterCliked} to="/">Home</Link></li>
                             <li><Link onClick={closeMenuAfterCliked} to="/about">Our history</Link></li>
                             <li><Link onClick={closeMenuAfterCliked} to="/team">Volunteer team</Link></li>

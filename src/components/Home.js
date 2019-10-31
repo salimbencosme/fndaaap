@@ -21,7 +21,9 @@ class Home extends Component {
 
     componentWillReceiveProps(nextProps) {}
 
-    componentDidMount() {}
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
 
     render() {
         return (
@@ -40,8 +42,8 @@ class Home extends Component {
             <div class="item active">
                 <div class="fill" style={{ backgroundImage:  `url(${slideone})` }}></div>
                 <div class="carousel-caption slide-up">
-                    <h1 class="banner_heading">We make a living from what we <span>receive </span></h1>
-                    <p class="banner_txt">but we make a living from what we give (John Maxwell).</p>
+                    <h1 class="banner_heading">We make a living from what we <span>receive </span> but also</h1>
+                    <p class="banner_txt">we make a living from what we give (John Maxwell).</p>
                     <div class="slider_btn">
                     <Link to="/donate" class="btn btn-default slide">Donate <i class="fa fa-caret-right"></i></Link>
                     <Link to="/about" class="btn btn-primary slide">Know more <i class="fa fa-caret-right"></i></Link>
@@ -137,9 +139,7 @@ class Home extends Component {
                         <li> <i class="fa fa-check blue-special"></i>Classroom education.</li>
                         <li> <i class="fa fa-check blue-special"></i>Providing development.</li>
                         <li> <i class="fa fa-check blue-special"></i>Jobs.</li>
-                        <li> <i class="fa fa-check blue-special"></i>Medical assistance.</li>
                         <li> <i class="fa fa-check blue-special"></i>Psychological assistance.</li>
-                        <li> <i class="fa fa-check blue-special"></i>Nutrition and among others.</li>
                     </ul>
 
                     <Link to="/about" class="btn btn-primary slide">Know More  <i class="fa fa-caret-right"></i> </Link>

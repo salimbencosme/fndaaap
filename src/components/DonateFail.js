@@ -9,7 +9,9 @@ class DonateFail extends Component {
 
     componentWillReceiveProps(nextProps) {}
 
-    componentDidMount() {}
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
 
     render() {
         return (
