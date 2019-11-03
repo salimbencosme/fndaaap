@@ -61,7 +61,7 @@ class FAQ extends Component {
                                 </div>
                                 <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                     <div class="panel-body">
-                                    Absolutely! Gospel preaching is one of our core values In the school. Children will learn about God and Jesus love for them and all humanity. We take special care with Bible reading and praying everyday just before raising the Dominican flag and sing the national anthem but also Bible classes and spiritual counseling.
+                                    Absolutely! Gospel preaching is one of our core values In the school. Children will learn about God and Jesus love for them and all humanity. We take special care with Bible reading, and praying everyday just before raising the Dominican flag and singing the national anthem. We also share Bible classes and provide spiritual counseling.
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@ class FAQ extends Component {
                                 </div>
                                 <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
                                     <div class="panel-body">
-                                    We have a partner Canadian organization named Child Care International who is our intermediary between Canadian sponsors/donors and the Nest of Love Foundation, they keep a database of the sponsored children and their sponsors but also the children to be sponsored. They have years of experience to keep the communication between the children and their sponsors, tax receipts and any further information needed. They will also collect the funds and wire them to our organization.
+                                    We have a partnership agreements with a Canadian organization named "Child Care International" who is our intermediary between Canadian sponsors/donors and the Nest of Love Foundation. They keep a database of the sponsored children and their sponsors but also the children to be sponsored. They have years of experience keeping the communication between the children and their sponsors, tax receipts and any further information needed. They will also collect the funds and wire them to our organization.
                                     </div>
                                 </div>
                             </div>
@@ -153,8 +153,8 @@ class FAQ extends Component {
                                 </div>
                                 <div id="collapsesix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingsix">
                                     <div class="panel-body">
-                                    Much less than the 50% of our students are sponsored, because we don’t wait until a child to be sponsored to accept them on the school, but sponsored children are not treated different to the ones that are not sponsored. So, we put all the funds on a pool and use them to cover all the needs of the schools. The funds will be used to pay the teachers and staff (porter, cleaning, etc.), health insurance, but also for the operational expenses such as school supplies, teachers and students supplies, cleaning supplies, electricity and others.
-What if I would like to sponsors a special project?
+                                    Much less than the 50% of our students are sponsored, because we don’t wait until a child is sponsored to accept them in the school, but sponsored children are not treated differently from the ones that are not sponsored. So, we put all the funds into a pool and use them to cover all the needs of the schools. The funds will be used to pay the teachers and staff (porter, cleaning, etc.), health insurance, but also for the operational expenses such as school supplies, teachers and students supplies, cleaning supplies, electricity and others.
+What if I would like to sponsor a special project?
 No problem, e-mail us at nestoflovefoundation@outlook.com
                                     </div>
                                 </div>

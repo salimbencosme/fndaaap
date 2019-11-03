@@ -40,7 +40,7 @@ class Team extends Component {
                      
                         <div class="portfolio-content">
                             <h4 class="title">EVELY PENICHE MARTÍNEZ</h4>
-                            <p>Evely is also the founder of the organization, in 2006 In her house' garage, she is a tireless woman that loves serving others.</p>
+                            <p>Evely is also the founder of the organization. It all started in a small garage in her house back in 2006. She is a tireless woman that loves serving others.</p>
                         </div>
                    
                     </div>
@@ -59,7 +59,7 @@ class Team extends Component {
                         
                         <div class="portfolio-content">
                             <h5 class="title">FELIX DARIEL RODRIGUEZ</h5>
-                            <p>Felix Dariel is a young Christian that has brought to Nest of Love a fresh perspective and is evident his great desire to help those in need and he believes that the cause we are fighting for, has an impact on our world.</p>
+                            <p>Felix Dariel is a young christian that has brought to Nest of Love a fresh perspective and is evident his great desire to help those in need, and he believes that the cause we are fighting for, has an impact on our world.</p>
                         </div>
                      
                     </div>
@@ -99,7 +99,7 @@ class Team extends Component {
                       
                         <div class="portfolio-content">
                             <h5 class="title">PEDRO VILLAMAN</h5>
-                            <p>Pedro is with the school since its beginning. He used to go from Puerto Plata to Sosúa, to teach Bible classes every week to the students, he is a Godly man always ready to serve the Lord wherever he is needed.</p>
+                            <p>Pedro is with the school since its beginning. He used to go from Puerto Plata to Sosúa, to teach Bible classes every week to the students. He is a Godly man always ready to serve the Lord wherever he is needed.</p>
                         </div>
                      
                     </div>

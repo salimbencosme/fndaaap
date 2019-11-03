@@ -155,7 +155,7 @@ class Home extends Component {
             <div class="section-heading text-center">
                 <div class="col-md-12 col-xs-12">
                     <h1>Our <span>Team</span></h1>
-                    <p class="subheading">We use our donor talents and resources to change the future of every child that knocks on our door.</p>
+                    <p class="subheading">We use the talents and resources of our donors to change the future of every child that knocks on our door.</p>
                 </div>
             </div>
 

@@ -162,7 +162,7 @@ box-b">
                                                     <div class="col-md-6 col-sm-12 col-xs-12">
                                                     <div class="about-box">
                                                         <h6 class="title-core title-box">Transparency</h6>
-                                                        <p> To be open with our associates that trust in our work and those who we believe that the change we are fighting for matter in our world.</p>
+                                                        <p> We are open with our associates and sponsors that trust in our work and those who, like us, believe that the change we are fighting for matters in our world.</p>
                                                     </div>
                                                     </div>
 
