@@ -8,7 +8,7 @@ import Donate from './components/Donate';
 import Main from './containers/Main';
 import FAQ from './components/FAQ';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter as Router, Route, Switch,HashRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch,HashRouter,Redirect } from "react-router-dom";
 import Contact from './components/Contact';
 import DonateGood from './components/DonateGood';
 import DonateFail from './components/DonateFail';
@@ -25,6 +25,7 @@ ReactDOM.render(
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/donategood" component={DonateGood} />
                 <Route exact path="/donatefail" component={DonateFail} />
+                <Route render={() => <Redirect to={{pathname: "/"}} />} />
             </Switch>
         </Main>
     </HashRouter>
