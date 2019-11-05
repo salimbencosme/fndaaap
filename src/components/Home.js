@@ -92,7 +92,8 @@ class Home extends Component {
                     <div class="col-md-2 col-xs-2"><i class="fa fa-chevron-circle-right feature_icon"></i></div>
                     <div class="col-md-10 col-xs-10">
                         <h4>Mission</h4>
-                        <p>Our principal focus is to bring support for the most needed people in the Dominican Republic, being our center of attention education based on Christian values</p>
+                        <p>Our main focus is bringing support for the most needed people in the Dominican Republic, 
+                                                        being our center of attention education based on Christian values</p>
                         <Link to="/about" class="readmore">Read More <i class="fa fa-caret-right blue-special"></i></Link>
                     </div>
                 </div>

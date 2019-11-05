@@ -121,7 +121,7 @@ class FAQ extends Component {
                                 </div>
                                 <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
                                     <div class="panel-body">
-                                    We have a partnership agreements with a Canadian organization named "Child Care International" who is our intermediary between Canadian sponsors/donors and the Nest of Love Foundation. They keep a database of the sponsored children and their sponsors but also the children to be sponsored. They have years of experience keeping the communication between the children and their sponsors, tax receipts and any further information needed. They will also collect the funds and wire them to our organization.
+                                    We have partnership agreements with a Canadian organization named "Child Care International" who is our intermediary between Canadian sponsors/donors and the Nest of Love Foundation. They keep a database of the sponsored children and their sponsors but also the children to be sponsored. They have years of experience keeping the communication between the children and their sponsors, tax receipts and any further information needed. They will also collect the funds and wire them to our organization.
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@ class FAQ extends Component {
                                     <h4 class="panel-title">
                                         <div class="icon-circle"> <i class="fa fa-question-circle"></i></div>
                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
-                                        What would happened if I’m not willing to continue the sponsorship?
+                                        What would happen if I’m not willing to continue the sponsorship?
                                     </a>
                                     </h4>
                                 </div>
@@ -147,7 +147,7 @@ class FAQ extends Component {
                                     <h4 class="panel-title">
                                         <div class="icon-circle"> <i class="fa fa-question-circle"></i></div>
                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
-                                        How these funds will be used?
+                                        How will these funds be used?
                                     </a>
                                     </h4>
                                 </div>

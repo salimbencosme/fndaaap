@@ -57,11 +57,13 @@ journey of holding hands with the most needed ones in the
 community of Villa Emmanuel, ending that school year with
  twelve students.
                                 <br/><br/> 
-                                As the number of students grew, it was necessary to register the organization and so we did, but when we saw how the children felt in a valuble and lovely environment that name "Nidito de Amor" was born, which means a small nest of love.
+                                As the number of students grew, it was necessary to register the organization and so we did, but when we saw how the children felt in a valuble and lovely environment the name "Nidito de Amor" was born, which means a small nest of love.
                                 <br/><br/>
                                 Currently under the responsibility of Nidito de Amor foundation, is not only Colegio Cristiano Espacio de Amor (which was what the small group of students became into) but also responsible for Escuela Cristiana Juan Calvino since 2014.
                                 <br/><br/>
-                                Throughout these 12 years the Nest of Love Foundation has contributed to the community of Villa Emmanuel and Villa Esperanza, innumerable benefits to families of very scarce economic resources in Sosúa and Montellano, in the province of Puerto Plata that transcends beyond the classroom education, providing development, jobs, medical assistance, psychological assistance, nutrition, among others.
+                                Throughout these 12 years the Nest of Love Foundation has contributed to the communities of Villa Emmanuel and Villa Esperanza,
+ countless benefits to families of very scarce economic resources in Sosúa and Montellano, in the province of Puerto Plata
+ that transcends beyond the classroom education, providing development, jobs, medical assistance, psychological assistance, nutrition, among other contributions.
 
                             </p>
                             <button type="button" class="btn btn-primary slide">Learn More <i class="fa fa-caret-right"></i></button>

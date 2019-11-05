@@ -59,7 +59,7 @@ class Team extends Component {
                         
                         <div class="portfolio-content">
                             <h5 class="title">FELIX DARIEL RODRIGUEZ</h5>
-                            <p>Felix Dariel is a young christian that has brought to Nest of Love a fresh perspective and is evident his great desire to help those in need, and he believes that the cause we are fighting for, has an impact on our world.</p>
+                            <p>Felix Dariel is a young christian that has brought to Nest of Love a fresh perspective and is evident his great desire to help those in need, and he believes that the cause we are fighting for has an impact on our world.</p>
                         </div>
                      
                     </div>
