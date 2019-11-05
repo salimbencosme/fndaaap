@@ -131,7 +131,7 @@ class FAQ extends Component {
                                     <h4 class="panel-title">
                                         <div class="icon-circle"> <i class="fa fa-question-circle"></i></div>
                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
-                                        What would happen if I’m not willing to continue the sponsorship?2
+                                        What would happen if I’m not willing to continue the sponsorship?
                                     </a>
                                     </h4>
                                 </div>
