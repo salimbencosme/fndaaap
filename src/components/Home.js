@@ -28,6 +28,7 @@ class Home extends Component {
     render() {
         return (
             <div>
+                <h1 style={{color:'transparent',fontSize: '1px',marginBottom:'-22px'}}>NEST OF LOVE FOUNDATION</h1>
 
     <div id="myCarousel" class="carousel slide">
   
