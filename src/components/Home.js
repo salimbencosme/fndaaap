@@ -256,7 +256,7 @@ class Home extends Component {
         <div class="container">
             <div class="section-heading text-center">
                 <div class="col-md-12 col-xs-12">
-                    <h1>Our <span>Childrens</span></h1>
+                    <h1>Our <span>Children</span></h1>
                     <p class="subheading new-box">"Within each social group a feeling of solidarity prevails,
                      an urgent need to work together and enjoy doing so, which represents a high moral value" (Christian Lous Lange)</p>
                 </div>
