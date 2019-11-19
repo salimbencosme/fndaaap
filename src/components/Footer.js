@@ -83,10 +83,9 @@ class Footer extends Component {
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12 btm-footer-links">
-                
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12 copyright">
-                    Developed by <a href="#">Salim Software Developer</a>                </div>
+                    Developed by <a href="https://www.sevenawesome.com/#/">sevenawesome</a></div>
             </div>
         </div>
     </section>
